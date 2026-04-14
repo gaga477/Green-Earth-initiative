@@ -1,0 +1,29 @@
+{
+  "name": "green-earth-initiative",
+  "version": "1.0.0",
+  "description": "real-world eco gamification platform** that turns environmental actions into rewards.",
+  "keywords": [],
+  "homepage": "https://github.com/gaga477/Green-Earth-initiative#readme",
+  "bugs": {
+    "url": "https://github.com/gaga477/Green-Earth-initiative/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaga477/Green-Earth-initiative.git"
+  },
+  "license": "ISC",
+  "author": "ogaga",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "multer": "^2.1.1"
+  }
+}
